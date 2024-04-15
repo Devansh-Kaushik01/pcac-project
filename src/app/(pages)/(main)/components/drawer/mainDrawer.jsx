@@ -2,16 +2,18 @@
 import React from "react";
 import {
     Drawer,
+    Button,
+    Typography,
     IconButton,
 } from "@material-tailwind/react";
-import { CgMenuRight, CgMenuRightAlt } from "react-icons/cg";
-import DefaultButton from "../../../components/defaultbutton/defaultbutton";
+import DefaultButton from "@/app/(pages)/components/defaultbutton/defaultbutton";
+import { CgMenuRight, CgMenuRightAlt } from 'react-icons/cg';
 import Logo from '../../../../../assets/logo/logo.png';
+import Link from "next/link";
+import Image from "next/image";
 import { IoMdClose } from "react-icons/io";
-import Link from "next/link"
-import Image from 'next/image'
 
-const MainDrawer = ({ openRight, openDrawer, closeDrawerRight }) => {
+const MainDrawer = () => {
     const menuItems = [
         { name: "Home", active: true, link: "/" },
         { name: "Latest News", link: "/news" },
@@ -19,9 +21,23 @@ const MainDrawer = ({ openRight, openDrawer, closeDrawerRight }) => {
         { name: "Contact Us", link: "/contact" }
     ]
 
+    const [openRight, setOpenRight] = React.useState(false);
+    const openDrawerRight = () => setOpenRight(true);
+    const closeDrawerRight = () => setOpenRight(false);
+
     return (
         <React.Fragment>
-            <Drawer open={openRight} onClose={closeDrawerRight} className="p-4 bg-black text-white">
+            <DefaultButton
+                onPress={openDrawerRight}
+                classNames={"lg:hidden p-0 w-10 h-10 flex justify-center items-center !text-black"}
+            >
+                {openRight ?
+                    <CgMenuRightAlt className={"text-black text-xl"} />
+                    :
+                    <CgMenuRight className={"text-black text-xl "} />
+                }
+            </DefaultButton>
+            <Drawer placement="right" open={openRight} onClose={closeDrawerRight} className="p-4">
                 <div className="mb-6 flex items-center justify-between">
                     <Link href={"/"}>
                         <Image src={Logo} alt={"logo"} />
@@ -55,5 +71,4 @@ const MainDrawer = ({ openRight, openDrawer, closeDrawerRight }) => {
         </React.Fragment>
     );
 }
-
 export default MainDrawer;

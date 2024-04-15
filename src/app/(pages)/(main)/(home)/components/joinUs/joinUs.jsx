@@ -35,7 +35,7 @@ const JoinUs = () => {
                 </div>
             </div>
 
-            <div className='lg:grid grid-cols-3 gap-8 lg:mt-4 mt-10'>
+            <div className='grid lg:grid-cols-3 gap-8 mt-10'>
                 {data.map((item, index) => {
                     return (
                         <PropertyCard

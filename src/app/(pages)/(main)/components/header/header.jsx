@@ -6,8 +6,7 @@ import Logo from "../../../../../assets/logo/logo.png"
 import { GoClock } from "react-icons/go";
 import { BsTelephone } from "react-icons/bs";
 import { CiGlobe } from "react-icons/ci";
-import MainDrawer, { DrawerDefault } from "../drawer/mainDrawer"
-import { CgMenuRight, CgMenuRightAlt } from 'react-icons/cg';
+import MainDrawer from "../drawer/mainDrawer"
 
 const detailData = [
     { name: "Mon-Fri: 08:00- 06:30", link: "/", icon: <GoClock /> },
@@ -23,10 +22,6 @@ const menuItems = [
 
 const Header = ({ }) => {
     const [toggle, setToggle] = useState(false);
-    const [openRight, setOpenRight] = React.useState(false);
-
-    const openDrawerRight = () => setOpenRight(true);
-    const closeDrawerRight = () => setOpenRight(false);
   
     return (
         <Fragment>
@@ -76,17 +71,7 @@ const Header = ({ }) => {
                     </div>
                 </div>
                 <div className='flex md:hidden '>
-                    <DefaultButton
-                        onPress={openDrawerRight}
-                        classNames={"lg:hidden p-0 w-10 h-10 flex justify-center items-center !text-black"}
-                    >
-                        {openRight ?
-                            <CgMenuRightAlt className={"text-black text-xl"} />
-                            :
-                            <CgMenuRight className={"text-black text-xl "} />
-                        }
-                    </DefaultButton>
-                    <MainDrawer openDrawer={openDrawerRight} open={openRight} closeDrawer={closeDrawerRight} />
+                    <MainDrawer />
                 </div>
             </div>
 

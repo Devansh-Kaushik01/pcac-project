@@ -22,6 +22,9 @@ module.exports = withMT({
       },
       backdropBlur: {
         xs: '6px',
+      },
+      boxShadow: {
+        '3xl': '10px 35px 80px 5px rgba(0, 0, 0, 0.1)',
       }
     },
   },
