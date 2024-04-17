@@ -13,7 +13,7 @@ const card = [
 const Video = () => {
     return (
         <div className="bg-cover bg-center lg:min-h-screen lg:mt-10 flex items-center justify-center meetingImg">
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto lg:px-4">
                 <div className="flex flex-col md:flex-row gap-8 mx-auto bg-indigo-600 bg-opacity-0 rounded-lg text-white">
                     <div className="flex flex-col md:flex-row justify-between">
                         {card.map((item, index) => (

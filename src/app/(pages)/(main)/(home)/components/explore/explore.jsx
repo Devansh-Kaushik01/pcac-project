@@ -23,12 +23,12 @@ const exploredata = [
 const Explore = () => {
     return (
         <div className="container mx-auto pt-10 md:px-0 px-4">
-            <div className="flex justify-between items-end">
+            <div className="lg:flex justify-between items-end">
                 <div className="lg:text-5xl text-3xl font-medium flex flex-col gap-4 ">
                     <h2>Explore Our</h2>
                     <h2 className="text-gray">PCAC Playbook</h2>
                 </div>
-                <DefaultButton classNames={"bg-blue text-white "}>
+                <DefaultButton classNames={"bg-blue text-white lg:mt-0 mt-4 "}>
                     View All
                 </DefaultButton>
             </div>

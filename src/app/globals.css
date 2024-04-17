@@ -61,3 +61,9 @@ svg.-ml-1.h-7.w-7 {
   border-radius: 14px;
   padding: 4px;
 }
+.heroImg{
+  background-image: url("../assets/images/heroImg.jpg");
+}
+.downloadImg{
+ background-image: url("../assets/images/homeImg.jpg");
+}

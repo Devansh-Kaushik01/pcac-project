@@ -23,12 +23,12 @@ const data = [
 const JoinUs = () => {
     return (
         <div className="container mx-auto p-4">
-            <div className="flex justify-between">
+            <div className="lg:flex justify-between">
                 <div className="lg:text-5xl text-3xl font-medium flex flex-col gap-2">
                     <h2>Would you like</h2>
                     <h2 className="text-gray">To join us for?</h2>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center lg:mt-0 mt-4">
                     <DefaultButton classNames={"text-white bg-blue"}>
                         Contact Us
                     </DefaultButton>

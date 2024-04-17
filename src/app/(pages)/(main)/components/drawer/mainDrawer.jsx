@@ -17,7 +17,7 @@ const MainDrawer = () => {
     const menuItems = [
         { name: "Home", active: true, link: "/" },
         { name: "Latest News", link: "/news" },
-        { name: "About Us", link: "/about" },
+        { name: "About Us", link: "/aboutUs" },
         { name: "Contact Us", link: "/contact" }
     ]
 

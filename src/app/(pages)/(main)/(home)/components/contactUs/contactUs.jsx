@@ -21,14 +21,14 @@ const iconsData = [
 
 const ContactUs = () => {
     return (
-        <div className="container mx-auto flex flex-col gap-8 items-center text-center mt-20">
+        <div className="container mx-auto flex flex-col gap-8 items-center text-center lg:mt-20 mt-10">
             <div className="flex flex-col gap-4 items-center">
-                <h2 className="text-5xl font-semibold">Buy<span className="text-blue">.</span> Sell<span className="text-blue">.</span> Rent<span className="text-blue">.</span></h2>
-                <p className="w-4/5 ">We're a diverse and passionate team that takes ownership of your design and empower you to execute the roadmap.
+                <h2 className="lg:text-5xl text-3xl font-semibold">Buy<span className="text-blue">.</span> Sell<span className="text-blue">.</span> Rent<span className="text-blue">.</span></h2>
+                <p className="w-4/5 lg:text-lg text-sm text-lightgray">We're a diverse and passionate team that takes ownership of your design and empower you to execute the roadmap.
                     We stay light on our feet and truly enjoy delivering great work.
                 </p>
             </div>
-            <div className='flex lg:flex-row flex-col items-center gap-6 lg:px-0 px-4 '>
+            <div className='flex lg:flex-row flex-col text-sm items-center gap-6 lg:px-0 px-4 '>
                 {detailData.map((item, index) => {
                     return (
                         <Link href={item.link}
