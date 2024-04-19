@@ -43,7 +43,7 @@ const Hero = () => {
                         Contact Us
                     </DefaultButton>
                     <div className="flex lg:justify-end ">
-                        <div className=" flex flex-col justify-ends lg:mt-0 mt-10 ">
+                        <div className=" flex flex-col justify-ends mt-10 ">
                             <h4 className="uppercase text-blue text-sm font-bold">Download app:</h4>
                             <div className="flex gap-2">
                                 <Link href="/">

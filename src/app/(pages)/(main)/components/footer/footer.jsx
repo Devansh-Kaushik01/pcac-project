@@ -7,7 +7,7 @@ import DefaultFooter from "./component/defaultFooter"
 
 const menuItems = [
     { name: "About us", link: "/aboutUs" },
-    { name: "Contact us", link: "/contactus" },
+    { name: "Contact us", link: "/contactUs" },
     { name: "Help", link: "/help" },
     { name: "Privacy Policy", link: "/policy" },
     { name: "Disclaimer", link: "/disclaimer" }
@@ -18,7 +18,7 @@ const Footer = ({ }) => {
     const [toggle, setToggle] = useState(false);
     return (
         <div className='border-t mt-10'>
-            <div className='container flex lg:flex-row flex-col justify-between items-center mx-auto py-2'>
+            <div className='container flex lg:flex-row flex-col justify-between items-center mx-auto lg:py-2 py-6'>
                 <Link href={"/"}>
                     <Image src={Logo} alt={"logo"} />
                 </Link>

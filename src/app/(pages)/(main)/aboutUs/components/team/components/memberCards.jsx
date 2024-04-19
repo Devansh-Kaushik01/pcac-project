@@ -6,7 +6,7 @@ import ProfileLogo from "../../../../../../../assets/logo/profilelogo.jpg";
 const MemberCards = ({ classNames, textArea, imgs }) => {
     return (
         <div className="container mx-auto">
-            <div className={`flex items-center justify-between gap-10 ${classNames}`}>
+            <div className={`flex lg:flex-row flex-col items-center justify-between gap-10 ${classNames}`}>
                 <div className={`flex gap-5 w-3/4 ${textArea}`}>
                     <div className="w-12 h-auto bg-blue"></div>
                     <div className="flex flex-col gap-6">
