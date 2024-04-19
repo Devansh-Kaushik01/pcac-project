@@ -73,7 +73,7 @@ const ImagesCard = ({ img, classnames }) => {
             <Image
                 src={img}
                 alt={`${img + "img"}`}
-                className="rounded-3xl w-56"
+                className="rounded-[30px] w-56"
             />
         </div>
     )

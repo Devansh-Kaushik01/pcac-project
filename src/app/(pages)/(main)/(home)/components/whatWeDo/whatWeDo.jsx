@@ -1,13 +1,19 @@
 "use client"
 import ProfileLogo from "../../../../../../assets/logo/profilelogo.jpg"
 import DefaultButton from "@/app/(pages)/components/defaultbutton/defaultbutton";
+import maping from "../../../../../../assets/images/backgroundmap2.jpg"
 import Image from "next/image";
 import { MdArrowOutward } from "react-icons/md";
 
 const WhatWeDo = () => {
     return (
         <div className="container mx-auto grid lg:grid-cols-2 gap-2 p-4 md:p-0">
-            <div className="lg:text-5xl text-3xl font-medium flex flex-col gap-2 mapimg">
+            <Image
+            src={maping}
+            alt="maping"
+            className="absolute left-0 w-1/2 -mt-80 -z-10"
+            />
+            <div className="lg:text-5xl text-3xl font-medium lg:flex lg:flex-col gap-2 z-10">
                 <h2>We Do This</h2>
                 <h2 className="text-gray">For A Single Cause</h2>
             </div>

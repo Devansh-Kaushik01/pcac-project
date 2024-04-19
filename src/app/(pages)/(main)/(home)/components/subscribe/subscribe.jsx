@@ -4,7 +4,7 @@ import DefaultInput from "../../../../components/defaultInput/deafultInput"
 
 const Subscribe = () => {
     return (
-        <div className="w-full subscribeimg py-10">
+        <div className="w-full subscribeimg lg:p-10 p-4">
             <div className="container mx-auto backdrop-blur-xs backdrop-brightness-150 py-14">
                 <div className="container mx-auto flex flex-col gap-5 justify-center text-center items-center ">
                     <h2 className="text-white lg:text-5xl text-3xl">Subscribe</h2>

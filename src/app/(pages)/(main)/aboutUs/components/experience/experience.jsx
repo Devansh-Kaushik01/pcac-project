@@ -11,10 +11,11 @@ const Experience = () => {
         <div className="container mx-auto flex flex-col lg:flex-row ">
             <div className="w-full lg:pt-16 ">
                 <section className=" w-full hidden lg:block mx-auto">
-                    <div className="relative cursor-pointer  ">
+                    <div className="relative cursor-pointer ">
                         <ImagesCard
                             img={Image3}
-                            classnames={"absolute top-6 left-20 !rounded-full"}
+                            classnames={"absolute top-6 left-24"}
+                            imgClass={"rounded-full"}
                         />
                         <ImagesCard
                             img={Image2}
@@ -61,13 +62,13 @@ const Experience = () => {
     )
 }
 
-const ImagesCard = ({ img, classnames }) => {
+const ImagesCard = ({ img, classnames, imgClass }) => {
     return (
         <div className={`${classnames}`}>
             <Image
                 src={img}
                 alt={`${img + "img"}`}
-                className="rounded-3xl "
+                className={`rounded-3xl ${imgClass}`}
             />
         </div>
     )

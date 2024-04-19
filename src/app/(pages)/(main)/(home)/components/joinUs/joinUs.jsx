@@ -22,9 +22,9 @@ const data = [
 
 const JoinUs = () => {
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-4 pt-14">
             <div className="lg:flex justify-between">
-                <div className="lg:text-5xl text-3xl font-medium flex flex-col gap-2">
+                <div className="lg:text-5xl text-3xl font-medium flex flex-col gap-2 z-10">
                     <h2>Would you like</h2>
                     <h2 className="text-gray">To join us for?</h2>
                 </div>
@@ -35,7 +35,7 @@ const JoinUs = () => {
                 </div>
             </div>
 
-            <div className='grid lg:grid-cols-3 gap-8 mt-10'>
+            <div className='grid lg:grid-cols-3 gap-8 mt-12'>
                 {data.map((item, index) => {
                     return (
                         <PropertyCard
