@@ -6,8 +6,8 @@ const DefaultFooter = () => {
   return(
     <div className="flex justify-center gap-6">
         <div className="flex flex-col gap-2">
-            <Link href="/">About Us</Link>
-            <Link href="/">Contact Us</Link>
+            <Link href="/about-us">About Us</Link>
+            <Link href="/contact-us">Contact Us</Link>
             <Link href="/">Help</Link>
         </div>
         <div className="flex flex-col gap-2">

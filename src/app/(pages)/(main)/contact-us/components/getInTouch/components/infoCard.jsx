@@ -5,7 +5,7 @@ const InfoCard = ({ item }) => {
             <div>
                 {item.icon}
             </div>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-1">
                 <h4 className="text-xl font-semibold">{item.heading}</h4>
                 <p>{item.info}</p>
                 <p>{item.info2}</p>

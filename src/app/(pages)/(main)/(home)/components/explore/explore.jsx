@@ -44,7 +44,7 @@ const Explore = () => {
                         className="w-full object-cover"
                     />
             </div>
-            <div className='lg:flex gap-14 py-8'>
+            <div className='lg:flex gap-4 py-8'>
                 {exploredata.map((item, index) => {
                     return (
                         <ExploreCard

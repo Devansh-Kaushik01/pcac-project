@@ -16,8 +16,8 @@ const detailData = [
 const menuItems = [
     { name: "Home", active: true, link: "/" },
     { name: "Latest News", link: "/news" },
-    { name: "About Us", link: "/aboutUs" },
-    { name: "Contact Us", link: "/contactUs" }
+    { name: "About Us", link: "/about-us" },
+    { name: "Contact Us", link: "/contact-us" }
 ]
 
 const Header = ({ }) => {

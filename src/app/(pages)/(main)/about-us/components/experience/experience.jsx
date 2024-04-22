@@ -8,7 +8,7 @@ import Image1 from "../../../../../../assets/images/image1.png"
 
 const Experience = () => {
     return (
-        <div className="container mx-auto flex flex-col lg:flex-row ">
+        <div className="container mx-auto flex flex-col lg:flex-row lg:py-10 ">
             <div className="w-full lg:pt-16 ">
                 <section className=" w-full hidden lg:block mx-auto">
                     <div className="relative cursor-pointer ">

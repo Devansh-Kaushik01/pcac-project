@@ -6,8 +6,8 @@ import Logo from "../../../../../assets/logo/logo.png"
 import DefaultFooter from "./component/defaultFooter"
 
 const menuItems = [
-    { name: "About us", link: "/aboutUs" },
-    { name: "Contact us", link: "/contactUs" },
+    { name: "About us", link: "/about-us" },
+    { name: "Contact us", link: "/contact-us" },
     { name: "Help", link: "/help" },
     { name: "Privacy Policy", link: "/policy" },
     { name: "Disclaimer", link: "/disclaimer" }
@@ -22,7 +22,7 @@ const Footer = ({ }) => {
                 <Link href={"/"}>
                     <Image src={Logo} alt={"logo"} />
                 </Link>
-                <div className='flex lg:flex-row flex-col lg:gap-14 gap-6   '>
+                <div className='flex lg:flex-row flex-col '>
                     <div className='lg:flex lg:flex-row flex-col items-center gap-10 lg:mt-0 mt-4 hidden '>
                         {menuItems.map((item, index) => {
                             return (
@@ -36,10 +36,11 @@ const Footer = ({ }) => {
                     <div className='block lg:hidden w-full p-4'>
                         <DefaultFooter />
                     </div>
-                    <p className='lg:px-0 px-4 text-center'>
+                  
+                </div>
+                <p className='lg:px-0 px-4 text-center'>
                         Copyright © 2024 • Synswift Infotech LLP.
                     </p>
-                </div>
             </div>
         </div>
     );

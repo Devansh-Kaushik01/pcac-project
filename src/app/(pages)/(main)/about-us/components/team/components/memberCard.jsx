@@ -7,8 +7,8 @@ const MemberCards = ({ classNames, textArea, imgs }) => {
     return (
         <div className="container mx-auto">
             <div className={`flex lg:flex-row flex-col items-center justify-between gap-10 ${classNames}`}>
-                <div className={`flex gap-5 w-3/4 ${textArea}`}>
-                    <div className="w-12 h-auto bg-blue"></div>
+                <div className={`flex gap-5 lg:w-3/4 ${textArea}`}>
+                    <div className="w-12 h-auto bg-blue lg:block hidden"></div>
                     <div className="flex flex-col gap-6">
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has

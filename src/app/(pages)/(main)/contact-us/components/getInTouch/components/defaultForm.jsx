@@ -31,7 +31,7 @@ const DefaultForm = () => {
             <div className="flex flex-col gap-4">
                 <textarea
                     id="message"
-                    rows="11"
+                    rows="6"
                     className="block p-2.5 w-full rounded-lg border-2 border-gray"
                     placeholder="Additional Details ( optional )" />
                 <DefaultButton classNames={"bg-blue text-white w-full h-12 "}>
