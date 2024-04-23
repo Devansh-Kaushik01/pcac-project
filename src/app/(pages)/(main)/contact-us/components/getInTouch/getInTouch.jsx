@@ -24,7 +24,7 @@ const iconsData = [
 
 const GetInTouch = ({ }) => {
     return (
-        <div className="container mx-auto grid lg:grid-cols-[25%_auto] gap-10 lg:py-20 lg:pt-0 pt-10" >
+        <div className="container mx-auto grid lg:grid-cols-[25%_auto] gap-10 py-10" >
             <div className=" flex flex-col gap-6 p-6 bg-blue text-white ">
                 {infoData.map((item, index) => {
                     return (
