@@ -11,7 +11,7 @@ const AboutUs = () => {
             <div className="flex flex-col lg:gap-4 gap-2 md:px-0 px-4">
                 <h4 className="uppercase font-bold">About us</h4>
                 <h2 className="lg:text-5xl text-3xl font-medium">Setting Up Standard For</h2>
-                <h2 className="lg:text-5xl text-3xl font-medium text-gray">Tricity Properties</h2>
+                <h2 className="lg:text-5xl text-3xl font-medium text-lightgray">Tricity Properties</h2>
             </div>
             <section className="md:py-10 md:p-10 md:px-0 pt-2">
                 <div className="px-4 md:p-0 transform duration-500 hover:shadow-2xl cursor-pointer hover:-translate-y-1 ">
@@ -30,9 +30,7 @@ const AboutUs = () => {
                         <div className="text-black font-bold text-lg uppercase">
                             <p>Latest News</p>
                         </div>
-                        <p className=" lg:text-justify font-medium text-lightgray leading-relaxed">There are many variations of passages
-                            of Lorem Ipsum available, but the majority have suffered
-                            alteration in some form,by injected humour, or randomised words. </p>
+                        <p className=" lg:text-justify font-medium text-gray leading-relaxed">Join us for an enlightening discussion as we delve into the dynamic world of real estate facilitated by the innovative Property Sale Purchase app, PCAC.  </p>
                         <DefaultButton anchor={true} onPress={"/"} classNames={"!text-black flex gap-2 text-md !px-0"}>
                             Read More <MdArrowOutward size={20} />
                         </DefaultButton>

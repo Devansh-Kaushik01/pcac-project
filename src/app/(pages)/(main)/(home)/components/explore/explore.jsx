@@ -26,9 +26,9 @@ const Explore = () => {
             <div className="lg:flex justify-between items-end">
                 <div className="lg:text-5xl text-3xl font-medium flex flex-col gap-4 ">
                     <h2>Explore Our</h2>
-                    <h2 className="text-gray">PCAC Playbook</h2>
+                    <h2 className="text-lightgray">PCAC Playbook</h2>
                 </div>
-                <DefaultButton classNames={"bg-blue text-white lg:mt-0 mt-4 "}>
+                <DefaultButton anchor onPress={"/"} classNames={"bg-blue text-white lg:mt-0 mt-4 h-14 w-32 flex justify-center rounded-lg "}>
                     View All
                 </DefaultButton>
             </div>

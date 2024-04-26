@@ -7,8 +7,8 @@ const InfoCard = ({ item }) => {
             </div>
             <div className="flex flex-col gap-1">
                 <h4 className="text-xl font-semibold">{item.heading}</h4>
-                <p>{item.info}</p>
-                <p>{item.info2}</p>
+                <p className="text-sm">{item.info}</p>
+                <p className="text-sm">{item.info2}</p>
             </div>
         </div>
     );

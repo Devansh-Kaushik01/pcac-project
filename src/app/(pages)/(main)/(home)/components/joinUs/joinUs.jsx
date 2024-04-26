@@ -20,22 +20,25 @@ const data = [
     }
 ]
 
-const JoinUs = () => {
+const JoinUs = ({}) => {
     return (
-        <div className="container mx-auto p-4 pt-14">
+        <div className="container mx-auto p-4 ">
             <div className="lg:flex justify-between">
                 <div className="lg:text-5xl text-3xl font-medium flex flex-col gap-2 z-10">
                     <h2>Would you like</h2>
-                    <h2 className="text-gray">To join us for?</h2>
+                    <h2 className="text-lightgray">To join us for?</h2>
                 </div>
                 <div className="flex items-center lg:mt-0 mt-4">
-                    <DefaultButton classNames={"text-white bg-blue"}>
+                    <DefaultButton 
+                     onPress={"/contact-us"} 
+                     anchor
+                    classNames={"text-white bg-blue h-14 w-32 rounded-lg"}>
                         Contact Us
                     </DefaultButton>
                 </div>
             </div>
 
-            <div className='grid lg:grid-cols-3 gap-8 mt-12'>
+            <div className='grid lg:grid-cols-3 gap-10 mt-12'>
                 {data.map((item, index) => {
                     return (
                         <PropertyCard

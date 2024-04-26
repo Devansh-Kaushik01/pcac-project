@@ -16,9 +16,11 @@ module.exports = withMT({
       },
       colors:{
         "blue" : "#0057FF",
-        "gray" : "#A3A3A3",
-        "lightgray":"#595959",
-        "lightgray-100": "#EEEEEE"
+        "gray" : "#595959",
+        "graybtn" : "#F8F8F9",
+        "lightgray":"#A3A3A3",
+        "lightgray-100": "#EEEEEE",
+        "gray-600": "#0A142F"
       },
       backdropBlur: {
         xs: '6px',

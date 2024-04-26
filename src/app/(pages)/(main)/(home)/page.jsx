@@ -6,10 +6,10 @@ import JoinUs from "./components/joinUs/joinUs";
 import Explore from "./components/explore/explore";
 import Video from "./components/video/video";
 import Questions from "./components/questions/questions";
-import Subscribe from "./components/subscribe/subscribe";
-import CarouselDefault from "./components/carousel/carouselDefault";
-import GetMobileApplication from "./components/getMobileApplication/getMobileApplication"
-import ContactUs from "./components/contactUs/contactUs"
+import Subscribe from "../components/common/subscribe/subscribe"
+import CarouselDefault from "../components/common/carousel/carouselDefault";
+import GetMobileApplication from "../components/common/getMobileApplication/getMobileApplication"
+import ContactUs from "../components/common/contactUs/contactUs"
 
 const Home = () => {
     return (

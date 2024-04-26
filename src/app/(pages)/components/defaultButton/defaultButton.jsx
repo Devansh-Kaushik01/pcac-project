@@ -15,7 +15,7 @@ function DefaultButton({ children, classNames, onPress, anchor }) {
             <Button
                 type='button'
                 onClick={onPress}
-                className={`bg-theme hover:shadow-none shadow-none !py-0 h-10 text-white rounded text-center px-6 text-nowrap normal-case font-medium text-sm ${classNames}`}
+                className={`bg-theme hover:shadow-none shadow-none !py-0 h-10 text-white rounded !text-center px-6 text-nowrap normal-case font-medium !text-md ${classNames}`}
             >
                 {children}
             </Button>

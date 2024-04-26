@@ -24,8 +24,8 @@ const iconsData = [
 
 const GetInTouch = ({ }) => {
     return (
-        <div className="container mx-auto grid lg:grid-cols-[25%_auto] gap-10 py-10" >
-            <div className=" flex flex-col gap-6 p-6 bg-blue text-white ">
+        <div className="container mx-auto grid lg:grid-cols-[30%_auto] lg:gap-10 gap-4 lg:py-10" >
+            <div className=" flex flex-col justify-center items-center gap-6 px-10 lg:py-0 py-6 bg-blue text-white  ">
                 {infoData.map((item, index) => {
                     return (
                         <InfoCard
@@ -34,7 +34,7 @@ const GetInTouch = ({ }) => {
                         />
                     )
                 })}
-                <div className='flex justify-center gap-6'>
+                <div className='flex gap-6'>
                     {iconsData.map((item, index) => {
                         return (
                             <Link href={item.link}
@@ -47,8 +47,8 @@ const GetInTouch = ({ }) => {
                     })}
                 </div>
             </div>
-            <div className=" p-5 flex flex-col lg:gap-4 ">
-               <h2 className="lg:text-5xl text-2xl font-semibold">Get In Touch<span className="text-gray"> With Us</span></h2>
+            <div className=" p-5 flex flex-col gap-4">
+               <h2 className="lg:text-5xl text-2xl font-semibold">Get In Touch<span className="text-lightgray"> With Us</span></h2>
                <p className="text-sm font-medium tracking-wide leading-relaxed ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                 has been the industry's standard dummy text ever since the 1500s, sunt in culpa qui officia
                 when an unknown.

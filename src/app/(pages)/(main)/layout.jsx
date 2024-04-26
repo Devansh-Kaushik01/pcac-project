@@ -1,6 +1,6 @@
 "use client"
-import Header from "./components/header/header"
-import Footer from "./components/footer/footer"
+import Header from "./components/common/header/header"
+import Footer from "./components/common/footer/footer"
 
 const mainLayout = (props) => {
     return (

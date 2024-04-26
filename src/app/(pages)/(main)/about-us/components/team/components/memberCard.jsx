@@ -10,7 +10,7 @@ const MemberCards = ({ classNames, textArea, imgs }) => {
                 <div className={`flex gap-5 lg:w-3/4 ${textArea}`}>
                     <div className="w-12 h-auto bg-blue lg:block hidden"></div>
                     <div className="flex flex-col gap-6">
-                        <p>
+                        <p className="tracking-wide leading-7"> 
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s, when an unknown printer took
                             a gallery of type and scrambled it to make a type specimen book. It has survived not only five
@@ -27,7 +27,7 @@ const MemberCards = ({ classNames, textArea, imgs }) => {
                             />
                             <div className=" cursor-pointer">
                                 <h3 className="font-semibold">Kamal Gupta</h3>
-                                <h3 className="font-light text-gray">President (PCAC) </h3>
+                                <h3 className="font-light text-lightgray">President (PCAC) </h3>
                             </div>
                         </div>
 
@@ -37,7 +37,7 @@ const MemberCards = ({ classNames, textArea, imgs }) => {
                     <Image
                         src={imgs}
                         alt="imgs"
-                        className="w-96 h-96 object-cover rounded-3xl"
+                        className="w-full h-full rounded-3xl"
                     />
                 </div>
             </div>

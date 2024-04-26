@@ -13,7 +13,7 @@ const Team = () => {
             <div className="flex lg:flex-row flex-col lg:gap-0 gap-2 justify-between lg:items-end pt-4">
                 <div className="font-semibold lg:text-5xl text-3xl flex flex-col gap-2">
                     <h2>Meet our</h2>
-                    <h2 className="text-gray">Professional Team</h2>
+                    <h2 className="text-lightgray">Professional Team</h2>
                 </div>
                 <p className="italic font-semibold lg:w-1/2 lg:text-lg">Ut enim ad minim veniam, quis nostrud nisi et exercitation the
                     ullamco laboris containing Lorem nisi ut aliquip.
