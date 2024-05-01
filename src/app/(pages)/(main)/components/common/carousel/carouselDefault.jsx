@@ -1,10 +1,15 @@
 "use client";
-import { Carousel } from "@material-tailwind/react";
+// import { Carousel } from "@material-tailwind/react";
 import CarouselCard from "./components/carouselCard"
 import InvertedComa from "../../../../../../assets/images/invertedComa.png"
 import Image from "next/image";
+// import OwlCarousel from 'react-owl-carousel';
+// import 'owl.carousel/dist/assets/owl.carousel.css';
+// import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-const CarouselDefault = () => {
+
+
+const CarouselDefault = ({ }) => {
   return (
     <div className="container mx-auto py-10 ">
       <div className="text-center flex flex-col items-center gap-5">
@@ -20,26 +25,28 @@ const CarouselDefault = () => {
 
         />
       </div>
-      <Carousel className=" rounded-xl px-12 pb-12 ">
-        <CarouselCard
-          paragraph=
-          {`"Through PCAC, The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English!"`}
-          name={"Jordan Barrett"}
-          address={"MD, Jubliee Walk, Mohali"}
-        />
-        <CarouselCard
-          paragraph=
-          {`"Through PCAC, The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English!"`}
-          name={"Jordan Barrett"}
-          address={"MD, Jubliee Walk, Mohali"}
-        />
-        <CarouselCard
-          paragraph=
-          {`"Through PCAC, The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English!"`}
-          name={"Jordan Barrett"}
-          address={"MD, Jubliee Walk, Mohali"}
-        />
-      </Carousel>
+      <div className="">
+      <CarouselCard/>
+      </div>
+        
+
+      {/* <OwlCarousel className='owl-theme' loop margin={10} nav>
+    <div class='item'>
+        <h4>1</h4>
+    </div>
+    <div class='item'>
+        <h4>2</h4>
+    </div>
+    <div class='item'>
+        <h4>3</h4>
+    </div>
+    <div class='item'>
+        <h4>4</h4>
+    </div>
+    <div class='item'>
+        <h4>5</h4>
+    </div>
+</OwlCarousel>; */}
     </div>
   );
 }

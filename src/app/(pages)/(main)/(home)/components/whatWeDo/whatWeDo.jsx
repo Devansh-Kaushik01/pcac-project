@@ -11,7 +11,7 @@ const WhatWeDo = () => {
             <Image
             src={maping2}
             alt="maping"
-            className="absolute left-0 w-1/2 -mt-64 -z-10"
+            className="absolute left-0 w-1/2 -mt-72 -z-10"
             />
             <div className="lg:text-5xl text-3xl font-medium lg:flex lg:flex-col gap-2 z-10 lg:py-10">
                 <h2>We Do This</h2>

@@ -16,6 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {/* <head><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script></head> */}
       <body className={inter.className}>{children}</body>
     </html>
   );

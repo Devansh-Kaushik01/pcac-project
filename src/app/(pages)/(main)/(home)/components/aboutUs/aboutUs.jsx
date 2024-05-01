@@ -31,7 +31,7 @@ const AboutUs = () => {
                             <p>Latest News</p>
                         </div>
                         <p className=" lg:text-justify font-medium text-gray leading-relaxed">Join us for an enlightening discussion as we delve into the dynamic world of real estate facilitated by the innovative Property Sale Purchase app, PCAC.  </p>
-                        <DefaultButton anchor={true} onPress={"/"} classNames={"!text-black flex gap-2 text-md !px-0"}>
+                        <DefaultButton anchor={true} onPress={"/news"} classNames={"!text-black flex gap-2 text-md !px-0"}>
                             Read More <MdArrowOutward size={20} />
                         </DefaultButton>
                     </div>

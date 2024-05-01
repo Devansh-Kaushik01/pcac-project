@@ -15,20 +15,15 @@
   rgba(102, 102, 102, 0)), url(
     "../assets/images/videoimg.jpg");
 }
-svg.ml-1.h-7.w-7 {
-  color: black;
-  background-color: #c8c3c3;
-  border-radius: 14px;
-  padding: 4px;
-}
-span.block.h-3.w-3.cursor-pointer.rounded-full.transition-colors.content-\[\'\'\].bg-white {
+/* .slick-prev:before, .slick-next:before  {
+  color:black;
+  background-color: aqua;
+ background-color: black;
+ border-radius: 50%; 
+} */
+.slick-prev:before, .slick-next:before {
   background-color: black;
-}
-svg.-ml-1.h-7.w-7 {
-  color: black;
-  background-color: #c8c3c3;
-  border-radius: 14px;
-  padding: 4px;
+  border-radius: 50%;
 }
 .heroImg{
   background-image: url("../assets/images/heroImg.jpg");

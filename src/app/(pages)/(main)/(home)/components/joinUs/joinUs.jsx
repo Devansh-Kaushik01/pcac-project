@@ -22,7 +22,7 @@ const data = [
 
 const JoinUs = ({}) => {
     return (
-        <div className="container mx-auto p-4 ">
+        <div className="container mx-auto lg:px-0 px-4 pt-20  ">
             <div className="lg:flex justify-between">
                 <div className="lg:text-5xl text-3xl font-medium flex flex-col gap-2 z-10">
                     <h2>Would you like</h2>
