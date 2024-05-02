@@ -4,7 +4,7 @@ import DefaultInput from "../../../../../components/defaultInput/deafultInput"
 const DefaultForm = () => {
     return (
         <div className="container mx-auto h-auto flex flex-col gap-4 ">
-            <div className="flex gap-4">
+            <div className="flex gap-4 font-normal">
                 <DefaultInput
                     type={"text"}
                     placeholder={"Your Name*"}
@@ -16,7 +16,7 @@ const DefaultForm = () => {
                     classNames={"!border !border-lightgray p-2 h-14 !rounded-lg "}
                 />
             </div>
-            <div className="flex gap-4">
+            <div className="flex gap-4 font-normal">
                 <DefaultInput
                     type={"phone"}
                     placeholder={"Your Phone*"}
@@ -34,7 +34,7 @@ const DefaultForm = () => {
                     rows="6"
                     className="block p-2.5 w-full focus:outline-none rounded-lg border border-lightgray"
                     placeholder="Additional Details ( optional )" />
-                <DefaultButton anchor onPress={"/"} classNames={"bg-blue text-white flex justify-center w-full h-14 rounded-lg"}>
+                <DefaultButton anchor onPress={"/"} classNames={"bg-blue text-white flex justify-center font-semibold w-full h-14 rounded-lg"}>
                     Send Message
                 </DefaultButton>
             </div>

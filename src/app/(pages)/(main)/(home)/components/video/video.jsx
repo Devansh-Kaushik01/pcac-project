@@ -20,14 +20,14 @@ const Video = ({}) => {
                             <div key={index} className="flex flex-col items-center lg:flex-row py-4">
                                 <div className="w-4/5 flex flex-col gap-4">
                                     <h2 className="lg:text-5xl text-3xl font-semibold">{item.heading}</h2>
-                                    <p className="lg:text-5xl text-3xl lg:w-1/2 font-thin">{item.paragraph}</p>
+                                    <p className="lg:text-5xl text-3xl lg:w-1/2 font-light">{item.paragraph}</p>
                                     <div className="">
-                                        <p className="text-white mt-10">Still have any doubts?<Link href="/" className="underline underline-offset-4"> Contact Us</Link> and check for yourself.</p>
+                                        <p className="text-white font-normal mt-10">Still have any doubts?<Link href="/contact-us" className="underline underline-offset-4"> Contact Us</Link> and check for yourself.</p>
                                     </div>
                                     <DefaultButton
                                      onPress={"/contact-us"} 
                                      anchor
-                                     classNames={"bg-blue h-14 w-32 rounded-lg"}>Contact Us</DefaultButton>
+                                     classNames={"bg-blue h-14 w-32 rounded-lg flex justify-center font-semibold"}>Contact Us</DefaultButton>
                                 </div>
                                 <div className="lg:flex hidden justify-center">
                                     <DefaultButton

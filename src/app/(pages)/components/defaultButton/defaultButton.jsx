@@ -1,25 +1,23 @@
-import React from 'react'
-import Link from "next/link"
+"use client"
 import { Button } from "@material-tailwind/react";
+import Link from "next/link";
 
-function DefaultButton({ children, classNames, onPress, anchor }) {
+const DefaultButton = ({ anchor, children, onPress, classNames }) => {
     return (
         anchor ?
             <Link href={onPress}
-                className={`bg-theme flex items-center h-10 text-white rounded text-center px-6 text-nowrap 
-                ${classNames}`}
+                className={`bg-blue flex justify-center items-center h-14 w-32 text-white rounded text-center px-6 text-nowrap ${classNames}`}
             >
                 {children}
             </Link>
             :
-            <Button
-                type='button'
+            <Button type="button"
                 onClick={onPress}
-                className={`bg-theme hover:shadow-none shadow-none !py-0 h-10 text-white rounded !text-center px-6 text-nowrap normal-case font-medium !text-md ${classNames}`}
+                className={`bg-blue hover:shadow-none shadow-none 
+        text-white text-md text-nowrap flex justify-center rounded-lg h-14 w-32 !font-semibold ${classNames}`}
             >
                 {children}
             </Button>
     )
-}
-
-export default DefaultButton
+};
+export default DefaultButton;

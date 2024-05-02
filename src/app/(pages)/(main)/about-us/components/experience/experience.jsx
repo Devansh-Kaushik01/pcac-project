@@ -12,18 +12,21 @@ const Experience = () => {
                     alt="ExperienceImg"
                 />
             </div>
-            <div className="w-full h-auto flex flex-col gap-4 py-10 lg:px-0 px-4">
-                <h4 className="text-sm font-semibold uppercase">About Pcac</h4>
-                <h2 className="lg:text-5xl text-3xl font-bold">We aim to Provide Expert</h2>
-                <h2 className="lg:text-5xl text-3xl font-bold text-lightgray">Advice and Quality Services.</h2>
-                <h3 className="italic text-2xl font-semibold">Ut enin ad minim veniam, quis nostrud nisi et exercitation the
-                    ullamco laboris containing Lorem nisi ut aliquip.
-                </h3>
-                <p className="lg:text-lg text-sm font-medium text-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum has been the industry's standard dummy text ever since the 1500s, sunt in culpa
-                    qui officia when an unknown. It has survived not only five centuries, but also the leap
-                    into electronic typesetting, remaining essentially unchanges laboris aliquip ex ea
-                    commodo consequat.
+            <div className="w-full h-auto flex flex-col gap-6 py-10 lg:px-0 px-4">
+                <div className="flex flex-col gap-6 font-semibold">
+                    <h4 className="text-sm uppercase">About Pcac</h4>
+                    <div className="flex flex-col gap-1 lg:text-5xl text-3xl">
+                        <h2>We aim to Provide Expert</h2>
+                        <h2 className="text-lightgray">Advice and Quality Services.</h2>
+                    </div>
+                    <h3 className="italic text-2xl">Your trusted partner for expert advice and quality services in every
+                        step of your property journey. Elevate your experience with us.
+                    </h3>
+                </div>
+                <p className="lg:text-lg text-sm font-normal text-gray">Our app is your gateway to expert advice and top-tier services in the real estate realm.
+                    Whether you're buying, selling, or renting, count on us for personalized guidance and seamless transactions. with a commitment to excellence,
+                    we ensure every step of your property journey is supported by expertise and quality service. Explore our app and elevate your property experience
+                    today!
                 </p>
                 <div className="flex gap-4 ">
                     <Image

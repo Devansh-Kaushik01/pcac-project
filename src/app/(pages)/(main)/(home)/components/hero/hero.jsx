@@ -25,14 +25,14 @@ const Hero = ({ }) => {
                     />
                 </div>
                 <div className="flex flex-col gap-4 lg:py-32 py-4 px-4">
-                    <h2 className="lg:text-5xl text-3xl">Find your dream home</h2>
+                    <h2 className="lg:text-5xl text-3xl font-normal">Find your dream home</h2>
                     <h2 className="lg:text-5xl text-3xl font-bold">with PCAC<span className="text-blue">.</span></h2>
-                    <p className="lg:text-lg text-sm text-gray">Discover seamless properties, personalized listings, and expert guidance on your journey to homeownership with PCAC app.
+                    <p className="lg:text-lg text-sm text-gray font-normal">Discover your ideal home effortlessly with PCAC's tailored solutions, matching your needs and aspirations to create your perfect living space.
                     </p>
                     <DefaultButton
                         onPress={"/contact-us"}
                         anchor
-                        classNames={"text-white bg-blue lg:h-14 h-12 w-32 rounded-lg"}>
+                        classNames={"text-white bg-blue lg:h-14 h-12 w-32 rounded-lg flex justify-center font-semibold"}>
                         Contact Us
                     </DefaultButton>
                     <div className="flex lg:justify-end ">

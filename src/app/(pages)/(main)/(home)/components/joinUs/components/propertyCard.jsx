@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const PropertyCard = ({ item }) => {
     return (
-        <div className="relative flex flex-col items-center group text-center pt-0 bg-white shadow-3xl bg-clip-border rounded-xl h-[428px] w-96">
+        <div className="relative flex flex-col gap-10 items-center group text-center pt-0 bg-white shadow-3xl bg-clip-border rounded-xl h-[428px] w-96">
             <div className="flex items-center justify-center h-2 opacity-0 w-40 bg-blue group-hover:opacity-100 rounded-b-xl "></div>
             <div className="p-6 flex flex-col gap-4 items-center">
                 <DefaultButton
@@ -16,15 +16,14 @@ const PropertyCard = ({ item }) => {
                 <h4 className="text-xl font-semibold uppercase">
                     {item.title}
                 </h4>
-                <p className="lg:w-3/4  font-medium text-gray ">
-                    There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration in some form, by injected humour, or
-                    randomised words.
+                <p className="lg:w-3/4  font-normal text-gray ">
+                    {item.paragraph}
                 </p>
+                <DefaultButton anchor={true} onPress={"/contact-us"} >
+                    <FaArrowRightLong className="text-blue" size={20} />
+                </DefaultButton>
             </div>
-            <DefaultButton anchor={true} onPress={"/contact-us"} >
-                <FaArrowRightLong className="text-blue" size={20} />
-            </DefaultButton>
+
         </div>
     )
 }

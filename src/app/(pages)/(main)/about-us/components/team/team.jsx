@@ -10,12 +10,12 @@ const Team = () => {
     return (
         <div className="container mx-auto lg:py-14 py-10 lg:px-0 px-4 ">
             <h4 className="uppercase text-sm font-semibold">Our Team Members</h4>
-            <div className="flex lg:flex-row flex-col lg:gap-0 gap-2 justify-between lg:items-end pt-4">
-                <div className="font-semibold lg:text-5xl text-3xl flex flex-col gap-2">
+            <div className="flex font-semibold lg:flex-row flex-col lg:gap-0 gap-2 justify-between lg:items-end pt-4">
+                <div className="lg:text-5xl text-3xl flex flex-col gap-2">
                     <h2>Meet our</h2>
                     <h2 className="text-lightgray">Professional Team</h2>
                 </div>
-                <p className="italic font-semibold lg:w-1/2 lg:text-lg">Ut enim ad minim veniam, quis nostrud nisi et exercitation the
+                <p className="italic lg:w-1/2 lg:text-lg">Ut enim ad minim veniam, quis nostrud nisi et exercitation the
                     ullamco laboris containing Lorem nisi ut aliquip.
                 </p>
             </div>

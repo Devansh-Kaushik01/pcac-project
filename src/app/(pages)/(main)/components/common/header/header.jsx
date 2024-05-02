@@ -33,11 +33,11 @@ const Header = ({ }) => {
 
     return (
         <Fragment>
-            <div className="w-full lg:bg-blue p-2">
+            <div className="w-full lg:bg-blue py-2">
                 <div className='container mx-auto lg:flex hidden justify-between items-center text-white'>
-                    <h4 className="text-xs font-medium ">
+                    <h4 className="text-xs font-bold ">
                         Property Consultant Association Chandigarh -
-                        <span className="font-light"> For all your property requirements</span>
+                        <span className="font-normal"> For all your property requirements</span>
                     </h4>
                     <div className='flex items-center gap-8 text-xs'>
                         {detailData.map((item, index) => {
@@ -53,7 +53,7 @@ const Header = ({ }) => {
                     </div>
                 </div>
             </div>
-            <div className='container mx-auto py-2 lg:px-0 px-4 flex justify-between items-center'>
+            <div className='container mx-auto p-4 lg:px-0 px-4 flex justify-between items-center'>
                 <Link href={"/"}>
                     <Image src={Logo} alt={"logo"} />
                 </Link>
@@ -62,7 +62,7 @@ const Header = ({ }) => {
                         {menuItems.map((item, index) => {
                             return (
                                 <Link href={item.link}
-                                    className={current === item.link ? "font-semibold" : ""}
+                                    className={current === item.link ? "font-semibold" : "font-normal"}
                                     key={index}>
                                     <div className='flex flex-col items-center gap-1 '>
                                         {item.name}
@@ -75,10 +75,10 @@ const Header = ({ }) => {
                         })}
                     </div>
                     <div className='flex gap-2'>
-                        <DefaultButton anchor onPress={"/"} classNames={"!text-black bg-graybtn border border-lightgray-100 rounded-lg text-black font-semibold h-14"}>
+                        <DefaultButton anchor onPress={"/"} classNames={"!text-black bg-graybtn border border-lightgray-100 "}>
                             Request an account
                         </DefaultButton>
-                        <DefaultButton anchor onPress={"/"} classNames={"text-white bg-blue flex justify-center rounded-lg !text-center h-14 w-32"}>
+                        <DefaultButton anchor onPress={"/"} >
                             Login
                         </DefaultButton>
                     </div>

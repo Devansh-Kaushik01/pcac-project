@@ -20,8 +20,8 @@ const QuestionCard = ({ item }) => {
     return (
         <>
             <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
-                <AccordionHeader onClick={() => handleOpen(1)} className="lg:text-xl text-sm">{item.heading}</AccordionHeader>
-                <AccordionBody>
+                <AccordionHeader onClick={() => handleOpen(1)} className="lg:text-xl text-sm font-semibold">{item.heading}</AccordionHeader>
+                <AccordionBody className="font-normal">
                     We&apos;re not always in the position that we want to be at. We&apos;re constantly
                     growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
                     ourselves and actualize our dreams.

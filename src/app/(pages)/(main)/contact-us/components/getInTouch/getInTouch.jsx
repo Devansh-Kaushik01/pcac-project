@@ -49,7 +49,7 @@ const GetInTouch = ({ }) => {
             </div>
             <div className=" p-5 flex flex-col gap-4">
                <h2 className="lg:text-5xl text-2xl font-semibold">Get In Touch<span className="text-lightgray"> With Us</span></h2>
-               <p className="text-sm font-medium tracking-wide leading-relaxed ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+               <p className="text-md font-normal tracking-wide leading-relaxed ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                 has been the industry's standard dummy text ever since the 1500s, sunt in culpa qui officia
                 when an unknown.
                </p>

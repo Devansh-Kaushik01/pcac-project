@@ -28,12 +28,12 @@ const MainDrawer = () => {
         <div className="fixedDrawer">
             <DefaultButton
                 onPress={openDrawerRight}
-                classNames={"lg:hidden p-0 w-10 h-10 flex justify-center items-center !text-black"}
+                classNames={"lg:hidden p-0 w-10 h-10 flex justify-center items-center bg-blue !text-white"}
             >
                 {openRight ?
-                    <CgMenuRightAlt className={"text-black text-xl"} />
+                    <CgMenuRightAlt size={20}/>
                     :
-                    <CgMenuRight className={"text-black text-xl "} />
+                    <CgMenuRight size={20}/>
                 }
             </DefaultButton>
             <Drawer
@@ -42,12 +42,12 @@ const MainDrawer = () => {
                     <Link href={"/"}>
                         <Image src={Logo} alt={"logo"} />
                     </Link>
-                    <IconButton variant="text" color="blue-gray" onClick={closeDrawerRight} className="">
-                        <IoMdClose size={18} />
+                    <IconButton variant="text" color="blue-gray" onClick={closeDrawerRight} className="bg-blue text-white rounded-full">
+                        <IoMdClose size={20} />
                     </IconButton>
                 </div>
-                <div className="mb-8 pr-4 font-normal">
-                    <div className='flex flex-col gap-7'>
+                <div className="">
+                    <div className='flex flex-col gap-7 font-normal'>
                         {menuItems.map((item, index) => {
                             return (
                                 <Link href={item.link}
@@ -59,11 +59,11 @@ const MainDrawer = () => {
                         })}
                     </div>
                 </div>
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-2 pt-6">
                     <DefaultButton classNames={"text-white bg-lightgray-100 text-black font-semibold w-48 "}>
                         Request an account
                     </DefaultButton>
-                    <DefaultButton classNames={"text-white bg-blue w-48"}>
+                    <DefaultButton classNames={"text-white bg-blue w-48 font-semibold"}>
                         Login
                     </DefaultButton>
                 </div>

@@ -10,7 +10,7 @@ const MemberCards = ({ classNames, textArea, imgs }) => {
                 <div className={`flex gap-5 lg:w-3/4 ${textArea}`}>
                     <div className="w-12 h-auto bg-blue lg:block hidden"></div>
                     <div className="flex flex-col gap-6">
-                        <p className="tracking-wide leading-7"> 
+                        <p className="tracking-wide leading-7 font-normal"> 
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s, when an unknown printer took
                             a gallery of type and scrambled it to make a type specimen book. It has survived not only five

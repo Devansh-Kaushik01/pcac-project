@@ -59,9 +59,7 @@ const CarouselCard = () => {
             <Slider {...settings}>
                 {data.map((d) => (
                     <div className="flex flex-col items-center text-center">
-                        <div>
-                            <p>{d.review}</p>
-                        </div>
+                            <p className="font-semibold text-xl">{d.review}</p>
                         <div className="flex flex-col gap-1 items-center py-6">
                             <Image src={d.img}
                                 alt="ProfileImg"

@@ -8,10 +8,10 @@ import { MdArrowOutward } from "react-icons/md";
 const AboutUs = () => {
     return (
         <div className="container mx-auto lg:pt-20 pt-6">
-            <div className="flex flex-col lg:gap-4 gap-2 md:px-0 px-4">
-                <h4 className="uppercase font-bold">About us</h4>
-                <h2 className="lg:text-5xl text-3xl font-medium">Setting Up Standard For</h2>
-                <h2 className="lg:text-5xl text-3xl font-medium text-lightgray">Tricity Properties</h2>
+            <div className="flex flex-col lg:gap-4 gap-2 md:px-0 px-4 font-semibold">
+                <h4 className="uppercase">About us</h4>
+                <h2 className="lg:text-5xl text-3xl">Setting Up Standard For</h2>
+                <h2 className="lg:text-5xl text-3xl text-lightgray">Tricity Properties</h2>
             </div>
             <section className="md:py-10 md:p-10 md:px-0 pt-2">
                 <div className="px-4 md:p-0 transform duration-500 hover:shadow-2xl cursor-pointer hover:-translate-y-1 ">
@@ -30,8 +30,9 @@ const AboutUs = () => {
                         <div className="text-black font-bold text-lg uppercase">
                             <p>Latest News</p>
                         </div>
-                        <p className=" lg:text-justify font-medium text-gray leading-relaxed">Join us for an enlightening discussion as we delve into the dynamic world of real estate facilitated by the innovative Property Sale Purchase app, PCAC.  </p>
-                        <DefaultButton anchor={true} onPress={"/news"} classNames={"!text-black flex gap-2 text-md !px-0"}>
+                        <p className=" lg:text-justify font-normal text-gray leading-relaxed">In our fast-paced world, the real estate market
+                         can seem like a maze of complexities. From fluctuating prices to evolving trends, staying ahead can be daunting. </p>
+                        <DefaultButton anchor={true} onPress={"/news"} classNames={"!text-black flex gap-2 text-md !px-0 font-normal"}>
                             Read More <MdArrowOutward size={20} />
                         </DefaultButton>
                     </div>

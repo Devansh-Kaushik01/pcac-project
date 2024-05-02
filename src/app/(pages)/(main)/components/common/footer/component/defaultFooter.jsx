@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const DefaultFooter = () => {
   return(
-    <div className="flex justify-center gap-24">
+    <div className="flex justify-center gap-24 font-normal">
         <div className="flex flex-col gap-2">
             <Link href="/about-us">About Us</Link>
             <Link href="/contact-us">Contact Us</Link>

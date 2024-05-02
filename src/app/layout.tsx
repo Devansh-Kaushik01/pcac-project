@@ -1,8 +1,39 @@
+import localFont from 'next/font/local'
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const SourceSansPro = localFont({
+  src: [
+    {
+      path: '../assets/fonts/source-sans-pro/SourceSansPro-ExtraLight.otf',
+      weight: '300',
+      style: 'extralight'
+    },
+    {
+      path: '../assets/fonts/source-sans-pro/SourceSansPro-Light.otf',
+      weight: '400',
+      style: 'normal'
+    },
+    {
+      path: '../assets/fonts/source-sans-pro/SourceSansPro-Semibold.otf',
+      weight: '600',
+      style: 'semibold'
+    },
+    {
+      path: '../assets/fonts/source-sans-pro/SourceSansPro-Bold.otf',
+      weight: '700',
+      style: 'bold'
+    },
+    {
+      path: '../assets/fonts/source-sans-pro/SourceSansPro-Bold.otf',
+      weight: '800',
+      style: 'extrabold'
+    }
+  ],
+  variable: '--font-SourceSansPro',
+})
 
 export const metadata: Metadata = {
   title: "PCAC Project",
@@ -17,7 +48,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* <head><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script></head> */}
-      <body className={inter.className}>{children}</body>
+      <body className={`${SourceSansPro.variable} font-sans`}>{children}</body>
     </html>
   );
 }

@@ -13,7 +13,7 @@ const CarouselDefault = ({ }) => {
   return (
     <div className="container mx-auto py-10 ">
       <div className="text-center flex flex-col items-center gap-5">
-        <h5 className="uppercase text-sm font-medium">What people says</h5>
+        <h5 className="uppercase text-sm font-semibold">What people says</h5>
         <div className="lg:text-5xl text-3xl font-semibold flex flex-col gap-2 lg:px-0 px-4  ">
           <h2>Trusted by peoples around</h2>
           <h2 className="text-lightgray">the tricity.</h2>
