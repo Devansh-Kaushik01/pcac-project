@@ -34,7 +34,7 @@ const Questions = () => {
                         through any uncertainties.</p>
                 </div>
                 <div>
-                    <DefaultButton anchor onPress={"/"} classNames={"bg-blue flex justify-center font-semibold text-white h-14 w-32 rounded-lg"}>
+                    <DefaultButton anchor onPress={"/"} classNames={""}>
                         Read More
                     </DefaultButton>
                 </div>

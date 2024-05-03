@@ -37,7 +37,7 @@ const WhatWeDo = () => {
                         </p>
                     </div>
                     <div className="flex flex-col gap-4">
-                        <DefaultButton anchor={true} onPress={"/"} classNames={"!text-black flex gap-2 text-md !p-0 font-normal hidden"}>
+                        <DefaultButton anchor={true} onPress={"/"} classNames={"!text-black  bg-white flex gap-2 text-md !p-0 font-normal hidden"}>
                             Read Our Menifesto <MdArrowOutward size={20} />
                         </DefaultButton>
                         <div className="flex gap-4 ">

@@ -41,7 +41,7 @@ const JoinUs = ({ }) => {
                     <DefaultButton
                         onPress={"/contact-us"}
                         anchor
-                        classNames={"text-white bg-blue h-14 w-32 flex justify-center font-semibold rounded-lg"}>
+                        classNames={""}>
                         Contact Us
                     </DefaultButton>
                 </div>

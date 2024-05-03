@@ -27,7 +27,7 @@ const Video = ({}) => {
                                     <DefaultButton
                                      onPress={"/contact-us"} 
                                      anchor
-                                     classNames={"bg-blue h-14 w-32 rounded-lg flex justify-center font-semibold"}>Contact Us</DefaultButton>
+                                     classNames={""}>Contact Us</DefaultButton>
                                 </div>
                                 <div className="lg:flex hidden justify-center">
                                     <DefaultButton

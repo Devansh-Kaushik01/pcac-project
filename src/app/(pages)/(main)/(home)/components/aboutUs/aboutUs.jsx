@@ -32,7 +32,7 @@ const AboutUs = () => {
                         </div>
                         <p className=" lg:text-justify font-normal text-gray leading-relaxed">In our fast-paced world, the real estate market
                          can seem like a maze of complexities. From fluctuating prices to evolving trends, staying ahead can be daunting. </p>
-                        <DefaultButton anchor={true} onPress={"/news"} classNames={"!text-black flex gap-2 text-md !px-0 font-normal"}>
+                        <DefaultButton anchor={true} onPress={"/news"} classNames={"!text-black !bg-white flex gap-2  !px-0 "}>
                             Read More <MdArrowOutward size={20} />
                         </DefaultButton>
                     </div>

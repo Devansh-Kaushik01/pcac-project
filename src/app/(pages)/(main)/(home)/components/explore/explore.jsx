@@ -39,7 +39,7 @@ const Explore = () => {
                     <h2>Explore Our</h2>
                     <h2 className="text-lightgray">PCAC Playbook</h2>
                 </div>
-                <DefaultButton anchor onPress={"/"} classNames={"bg-blue text-white lg:mt-0 mt-4 h-14 w-32 flex justify-center font-semibold rounded-lg "}>
+                <DefaultButton anchor onPress={"/"} classNames={"lg:mt-0 mt-4"}>
                     View All
                 </DefaultButton>
             </div>

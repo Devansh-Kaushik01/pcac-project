@@ -30,19 +30,16 @@ const data = [
         review: `Through PCAC 4, The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English!`,
         name: "Jordan Barrett",
         address: "MD, Jubliee Walk, Mohali"
-    }
-
+    },
 ]
-// function SampleArrow(props) {
-//     const { className, style, onClick } = props;
-//     return (
-//       <div
-//         className={className}
-//         style={{ ...style, display: "block", background: "black", borderRadius: "50%"}}
-//         onClick={onClick}
-//       />
-//     );
-//   }
+function SampleArrow(props) {
+    const {style} = props;
+    return (
+      <div
+        style={{ ...style, display: "hidden"}}
+      />
+    );
+  }
 
 const CarouselCard = () => {
     const settings = {
@@ -51,8 +48,8 @@ const CarouselCard = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        // nextArrow: <SampleArrow />,
-        // prevArrow: <SampleArrow />
+        nextArrow: <SampleArrow />,
+        prevArrow: <SampleArrow />
     };
     return (
         <div className="w-3/4 m-auto">

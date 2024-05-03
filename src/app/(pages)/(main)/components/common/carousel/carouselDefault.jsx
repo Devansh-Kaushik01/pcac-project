@@ -1,5 +1,4 @@
 "use client";
-// import { Carousel } from "@material-tailwind/react";
 import CarouselCard from "./components/carouselCard"
 import InvertedComa from "../../../../../../assets/images/invertedComa.png"
 import Image from "next/image";

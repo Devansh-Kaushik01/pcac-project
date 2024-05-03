@@ -14,11 +14,10 @@ const Subscribe = () => {
                             classNames={'p-2 !bg-white text-black lg:w-[400px] !h-14 !rounded-lg'}
                             placeholder={"Enter a valid email address..."}
                         />
-                        <DefaultButton anchor onPress={"/"} classNames={"bg-blue text-white h-14 lg:w-32 flex justify-center font-semibold rounded-lg"}>
+                        <DefaultButton anchor onPress={"/"} classNames={"lg:w-32"}>
                             Submit
                         </DefaultButton>
                     </div>
-
                 </div>
             </div>
         </div>

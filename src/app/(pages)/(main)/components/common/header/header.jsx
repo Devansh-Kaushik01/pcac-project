@@ -57,7 +57,7 @@ const Header = ({ }) => {
                 <Link href={"/"}>
                     <Image src={Logo} alt={"logo"} />
                 </Link>
-                <div className=' hidden md:flex gap-12 '>
+                <div className=' hidden md:flex gap-8 '>
                     <div className='flex items-center gap-12 '>
                         {menuItems.map((item, index) => {
                             return (
@@ -75,10 +75,10 @@ const Header = ({ }) => {
                         })}
                     </div>
                     <div className='flex gap-2'>
-                        <DefaultButton anchor onPress={"/"} classNames={"!text-black bg-graybtn border border-lightgray-100 "}>
+                        <DefaultButton anchor onPress={"/"} classNames={"!text-black bg-graybtn border border-lightgray-100 !w-40"}>
                             Request an account
                         </DefaultButton>
-                        <DefaultButton anchor onPress={"/"} >
+                        <DefaultButton anchor onPress={"/"} classNames={""}>
                             Login
                         </DefaultButton>
                     </div>

@@ -5,25 +5,13 @@
 .banner {
   background-image: url("../assets//images/backgroundmap1.jpg");
 }
-
 .subscribeimg {
   background-image: url("../assets/images/subscribeimg.jpg");
 }
-
 .meetingImg {
   background-image: linear-gradient(90deg ,rgba(17, 17, 17, 1),
   rgba(102, 102, 102, 0)), url(
     "../assets/images/videoimg.jpg");
-}
-/* .slick-prev:before, .slick-next:before  {
-  color:black;
-  background-color: aqua;
- background-color: black;
- border-radius: 50%; 
-} */
-.slick-prev:before, .slick-next:before {
-  background-color: black;
-  border-radius: 50%;
 }
 .heroImg{
   background-image: url("../assets/images/heroImg.jpg");

@@ -32,7 +32,7 @@ const Hero = ({ }) => {
                     <DefaultButton
                         onPress={"/contact-us"}
                         anchor
-                        classNames={"text-white bg-blue lg:h-14 h-12 w-32 rounded-lg flex justify-center font-semibold"}>
+                        classNames={""}>
                         Contact Us
                     </DefaultButton>
                     <div className="flex lg:justify-end ">
