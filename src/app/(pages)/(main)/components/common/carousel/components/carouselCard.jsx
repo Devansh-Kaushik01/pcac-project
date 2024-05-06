@@ -3,43 +3,47 @@ import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ProfileLogo from "../../../../../../../assets/logo/profilelogo.jpg"
+import Aarav from "../../../../../../../assets/images/aarav.png"
+import Vikram from "../../../../../../../assets/images/vikram.png"
+import Ananya from "../../../../../../../assets/images/ananya.png"
+import Siddharth from "../../../../../../../assets/images/siddharth.png"
+
 
 const data = [
 
     {
-        img: ProfileLogo.src,
-        review: `Through PCAC 1, The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English!`,
-        name: "Jordan Barrett",
-        address: "MD, Jubliee Walk, Mohali"
+        img: Aarav.src,
+        review: `Absolutely impressed! Found my dream home in no time. Intuitive search, accurate listings. The team's support was exceptional throughout. Highly recommend this platform for its efficiency and reliability in the property market.`,
+        name: "Aarav",
+        address: "Chandigarh"
     },
     {
-        img: ProfileLogo.src,
-        review: `Through PCAC 2, The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English!`,
-        name: "Jordan Barrett",
-        address: "MD, Jubliee Walk, Mohali"
+        img: Vikram.src,
+        review: `Outstanding rental platform! Found the perfect place with ease. Detailed listings, responsive agents. The process was seamless from start to finish. Highly recommend this site for anyone searching for a rental property.`,
+        name: "Vikram",
+        address: "Mohali"
     },
     {
-        img: ProfileLogo.src,
-        review: `Through PCAC 3, The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English!`,
-        name: "Jordan Barrett",
-        address: "MD, Jubliee Walk, Mohali"
+        img: Ananya.src,
+        review: `Top-notch relocation assistance! Comprehensive area insights, attentive service. Made my move stress-free. The platform's user-friendly interface and helpful resources guided me through the process seamlessly. Highly satisfied and grateful for the support!`,
+        name: "Ananya",
+        address: "Chandigarh"
     },
     {
-        img: ProfileLogo.src,
-        review: `Through PCAC 4, The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English!`,
-        name: "Jordan Barrett",
-        address: "MD, Jubliee Walk, Mohali"
+        img: Siddharth.src,
+        review: `Incredible rental experience! Detailed listings, easy communication. Streamlined process from search to move-in. Highly satisfied with the service!`,
+        name: "Siddharth",
+        address: "Panchkula"
     },
 ]
 function SampleArrow(props) {
-    const {style} = props;
+    const { style } = props;
     return (
-      <div
-        style={{ ...style, display: "hidden"}}
-      />
+        <div
+            style={{ ...style, display: "hidden" }}
+        />
     );
-  }
+}
 
 const CarouselCard = () => {
     const settings = {
@@ -55,13 +59,13 @@ const CarouselCard = () => {
         <div className="w-3/4 m-auto">
             <Slider {...settings}>
                 {data.map((d) => (
-                    <div className="flex flex-col items-center text-center">
-                            <p className="font-semibold text-xl">{d.review}</p>
+                    <div className="flex flex-col items-center text-center ">
+                        <p className="font-semibold text-xl">{d.review}</p>
                         <div className="flex flex-col gap-1 items-center py-6">
                             <Image src={d.img}
                                 alt="ProfileImg"
-                                width={40}
-                                height={40}
+                                width={50}
+                                height={10}
                             />
                             <h4 className="mt-2 font-semibold">{d.name}</h4>
                             <h6 className="text-sm font-medium text-lightgray">{d.address}</h6>

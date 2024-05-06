@@ -1,7 +1,8 @@
 "use client"
 import Image from "next/image";
-import ProfileLogo from "../../../../../../assets/logo/profilelogo.jpg"
+import ProfileLogo from "../../../../../../assets/logo/Profilelogo.png"
 import ExperienceImg from "../../../../../../assets/images/experience.jpg"
+import DefaultProfile from "../../../components/common/defaultProfile/defaultProfile";
 
 const Experience = () => {
     return (
@@ -28,17 +29,11 @@ const Experience = () => {
                     we ensure every step of your property journey is supported by expertise and quality service. Explore our app and elevate your property experience
                     today!
                 </p>
-                <div className="flex gap-4 ">
-                    <Image
-                        src={ProfileLogo}
-                        alt="ProfileLogo"
-                        className="cursor-pointer"
-                    />
-                    <div className=" cursor-pointer">
-                        <h3 className="font-semibold">Kamal Gupta</h3>
-                        <h3 className="font-light text-lightgray">President (PCAC) </h3>
-                    </div>
-                </div>
+                <DefaultProfile
+                    profileLogo={ProfileLogo}
+                    name={"Kamal Gupta"}
+                    post={"President"}
+                />
             </div>
         </div>
     )

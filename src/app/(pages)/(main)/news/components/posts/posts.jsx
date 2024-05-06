@@ -3,22 +3,22 @@ import PostCard from "./components/postCard"
 
 const postData = [
   {
-    heading: "Unveiling the Future of Real Estate with PCAC",
-     para: "In our fast-paced world, the real estate market can seem like a maze of complexities. From fluctuating prices to evolving trends, staying ahead can be daunting."
+    id:1,
+    link:"/news/detail-news/1",
+    heading: "The Power of Mobile Applications for Property Associations.",
+    para: "In today's fast-paced world, convenience is key. Whether it's ordering groceries or booking a ride, everything is just a tap away on our smartphones. "
   },
   {
-    heading: "space 2018 movie",
-    para: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet magna aliquam"
-  },
-  {
-    heading: "history of lions",
-    para: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet magna aliquam"
+    id:2,
+    link:"/news/detail-news/2",
+    heading: "A city designed by Swiss-French architect Le Corbusier",
+    para: "Chandigarh, the meticulously planned city designed by Swiss-French architect Le Corbusier, stands as a beacon of urban development and modernity in India."
   }
 ]
 const Posts = ({}) => {
   return (
     <div className="container mx-auto flex justify-center gap-8 py-10">
-      <div className='grid lg:grid-cols-3 gap-10 '>
+      <div className='grid lg:grid-cols-2 gap-10 '>
         {postData.map((item, index) => {
           return (
             <PostCard

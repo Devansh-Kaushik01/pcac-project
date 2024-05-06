@@ -1,9 +1,10 @@
 "use client"
-import ProfileLogo from "../../../../../../assets/logo/profilelogo.jpg"
+import ProfileLogo from "../../../../../../assets/logo/Profilelogo.png"
 import DefaultButton from "@/app/(pages)/components/defaultbutton/defaultbutton";
 import maping2 from "../../../../../../assets/images/backgroundmap2.jpg"
 import Image from "next/image";
 import { MdArrowOutward } from "react-icons/md";
+import DefaultProfile from "../../../components/common/defaultProfile/defaultProfile";
 
 const WhatWeDo = () => {
     return (
@@ -40,17 +41,11 @@ const WhatWeDo = () => {
                         <DefaultButton anchor={true} onPress={"/"} classNames={"!text-black  bg-white flex gap-2 text-md !p-0 font-normal hidden"}>
                             Read Our Menifesto <MdArrowOutward size={20} />
                         </DefaultButton>
-                        <div className="flex gap-4 ">
-                            <Image
-                                src={ProfileLogo}
-                                alt="ProfileLogo"
-                                className="cursor-pointer"
-                            />
-                            <div className=" cursor-pointer">
-                                <h3 className="font-semibold">Kamal Gupta</h3>
-                                <h3 className="font-light text-lightgray">President (PCAC) </h3>
-                            </div>
-                        </div>
+                        <DefaultProfile
+                            profileLogo={ProfileLogo}
+                            name={"Kamal Gupta"}
+                            post={"President"}
+                        />
                     </div>
                 </div>
             </div>
