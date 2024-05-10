@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import Link from "next/link";
-import DefaultButton from "@/app/(pages)/components/defaultbutton/defaultbutton";
+import DefaultButton from "@/app/(pages)/components/defaultButton/defaultButton";
 import Buildings from "../../../../../../assets/images/3-Buildings.jpg"
 import Googleplay from "../../../../../../assets/images/googleplay.png"
 import Playstore from "../../../../../../assets/images/appstore.png"

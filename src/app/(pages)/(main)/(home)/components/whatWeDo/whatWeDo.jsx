@@ -1,6 +1,6 @@
 "use client"
 import ProfileLogo from "../../../../../../assets/logo/Profilelogo.png"
-import DefaultButton from "@/app/(pages)/components/defaultbutton/defaultbutton";
+import DefaultButton from "@/app/(pages)/components/defaultButton/defaultButton";
 import maping2 from "../../../../../../assets/images/backgroundmap2.jpg"
 import Image from "next/image";
 import { MdArrowOutward } from "react-icons/md";

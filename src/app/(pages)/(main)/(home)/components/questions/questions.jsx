@@ -1,5 +1,5 @@
 "use client"
-import DefaultButton from "../../../../components/defaultbutton/defaultbutton"
+import DefaultButton from "@/app/(pages)/components/defaultButton/defaultButton"
 import QuestionCard from "./components/questionCard"
 const questionsdata = [
     {

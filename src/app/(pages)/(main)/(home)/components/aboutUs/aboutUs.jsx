@@ -1,5 +1,5 @@
 "use client"
-import DefaultButton from "../../../../components/defaultbutton/defaultbutton";
+import DefaultButton from '@/app/(pages)/components/defaultButton/defaultButton'
 import Image from 'next/image'
 import BlurImg from '../../../../../../assets/images/blurimg.jpg'
 import PropertyImg from "../../../../../../assets/images/propertyimg.jpg"

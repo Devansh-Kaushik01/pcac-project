@@ -1,5 +1,5 @@
 "use client"
-import DefaultButton from "@/app/(pages)/components/defaultbutton/defaultbutton";
+import DefaultButton from "@/app/(pages)/components/defaultButton/defaultButton";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const PropertyCard = ({ item }) => {

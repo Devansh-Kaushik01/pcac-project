@@ -1,5 +1,5 @@
 "use client"
-import DefaultButton from "../../../../components/defaultbutton/defaultbutton";
+import DefaultButton from '@/app/(pages)/components/defaultButton/defaultButton'
 import Image from 'next/image'
 import ExploreImg1 from "../../../../../../assets/images/exploreimg1.jpg"
 import ExploreImg2 from "../../../../../../assets/images/exploreimg2.jpg"

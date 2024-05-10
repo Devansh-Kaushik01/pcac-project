@@ -1,5 +1,5 @@
 "use client"
-import DefaultButton from "@/app/(pages)/components/defaultbutton/defaultbutton";
+import DefaultButton from "@/app/(pages)/components/defaultButton/defaultButton";
 import PropertyCard from "./components/propertyCard";
 import { GoHome } from "react-icons/go";
 import { RiShakeHandsLine } from "react-icons/ri";

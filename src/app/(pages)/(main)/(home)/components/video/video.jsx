@@ -1,7 +1,7 @@
 "use client"
 import { FaPlayCircle } from "react-icons/fa";
 import Link from "next/link";
-import DefaultButton from "@/app/(pages)/components/defaultbutton/defaultbutton";
+import DefaultButton from "@/app/(pages)/components/defaultButton/defaultButton";
 import { FaPlay } from "react-icons/fa6";
 
 const card = [

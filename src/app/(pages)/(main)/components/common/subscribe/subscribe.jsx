@@ -1,5 +1,5 @@
 "use client"
-import DefaultButton from "@/app/(pages)/components/defaultbutton/defaultbutton";
+import DefaultButton from "@/app/(pages)/components/defaultButton/defaultButton"
 import DefaultInput from "../../../../components/defaultInput/deafultInput"
 
 const Subscribe = () => {
