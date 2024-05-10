@@ -25,9 +25,9 @@ const CarouselDefault = ({ }) => {
         />
       </div>
       <div className="">
-      <CarouselCard/>
+        <CarouselCard />
       </div>
-        
+
 
       {/* <OwlCarousel className='owl-theme' loop margin={10} nav>
     <div class='item'>

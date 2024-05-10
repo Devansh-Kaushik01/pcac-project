@@ -38,15 +38,17 @@ const postData = [
     }
 ]
 const DetailPosts = ({ params }) => {
-    const [data, setData] = useState({});
+    const [data, setData] = useState(postData[0]);
+    const [currentRecord, serCurrentRecord] = useState(1);
 
     useEffect(() => {
         if (params && params.id) {
-            setData({ ...postData.find((d) => d.id == params.id) })
+            setData({ ...postData.find((d) => d.id == params.id) });
+            serCurrentRecord(params.id);
         }
     }, [params]);
     return (
-        <div className="container mx-auto border-t border-lightgray mt-2">
+        <div className="container mx-auto border-t border-lightgray mt-2 lg:px-0 px-4">
             <h2 className="lg:text-5xl text-3xl font-semibold py-8 ">{data.heading || ""}</h2>
             <div className="flex gap-4 ">
                 <div className="bg-blue w-20 text-white text-center p-2">
@@ -67,6 +69,8 @@ const DetailPosts = ({ params }) => {
             <div className='flex flex-col gap-14 pb-10 '>
                 <NewsCard
                     item={data}
+                    currentRecord={parseInt(currentRecord)}
+                    totalRecords={postData.length}
                 />
             </div>
         </div>

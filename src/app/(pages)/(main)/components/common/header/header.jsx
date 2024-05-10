@@ -1,6 +1,6 @@
 "use client"
 import React, { Fragment, useEffect, useState } from 'react';
-import DefaultButton from '../../../../components/defaultbutton/defaultbutton';
+import DefaultButton from '../../../../components/defaultButton/defaultButton';
 import Link from "next/link"
 import Image from 'next/image'
 import Logo from "../../../../../../assets/logo/logo.png"

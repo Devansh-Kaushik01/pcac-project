@@ -14,7 +14,7 @@ const Subscribe = () => {
                             classNames={'p-2 !bg-white text-black lg:w-[400px] !h-14 !rounded-lg'}
                             placeholder={"Enter a valid email address..."}
                         />
-                        <DefaultButton anchor onPress={"/"} classNames={"lg:w-32"}>
+                        <DefaultButton anchor onPress={"/"} classNames={"lg:w-32 w-full"}>
                             Submit
                         </DefaultButton>
                     </div>
