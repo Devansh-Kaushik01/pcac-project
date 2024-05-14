@@ -14,7 +14,7 @@ function Icon({ id, open }) {
         />
     );
 }
-const QuestionCard = ({ item }) => { 
+const FaqCard = ({ item }) => { 
     const [open, setOpen] = React.useState(0);
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
     return (
@@ -28,4 +28,4 @@ const QuestionCard = ({ item }) => {
         </>
     );
 };
-export default QuestionCard;
+export default FaqCard;

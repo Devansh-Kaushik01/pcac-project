@@ -1,7 +1,7 @@
 "use client"
 import DefaultButton from "@/app/(pages)/components/defaultButton/defaultButton"
-import QuestionCard from "./components/questionCard"
-const questionsdata = [
+import FaqCard from "./components/faqCard"
+const faqData = [
     {
         heading: `How can I list my property for sale or rent on the app?`,
         answer: `To list your property, simply download our app, create an account, and navigate to the "List Property" section.
@@ -34,7 +34,7 @@ const questionsdata = [
     }
 ]
 
-const Questions = () => {
+const Faq = () => {
     return (
         <div className="container mx-auto grid lg:grid-cols-2 py-10">
             <div className="flex flex-col gap-6 p-4">
@@ -55,9 +55,9 @@ const Questions = () => {
                 </div>
             </div>
             <div className='lg:grid lg:px-0 px-4 '>
-                {questionsdata.map((item, index) => {
+                {faqData.map((item, index) => {
                     return (
-                        <QuestionCard
+                        <FaqCard
                             key={index}
                             item={item}
                         />
@@ -67,4 +67,4 @@ const Questions = () => {
         </div>
     )
 }
-export default Questions;
+export default Faq;
